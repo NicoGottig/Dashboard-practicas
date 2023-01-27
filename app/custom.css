@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+
+/* header title font */
+.main-header .logo {
+  font-family: "Roboto Slab";
+  font-weight: bold;
+  font-size: 24px;
+}
+
+
+
+/* background color of header (logo part) */
+.skin-blue .main-header .logo {
+          background-color: #222b2e;
+        }
+        
+        
+/* change the background color of header (logo part) when mouse hover */
+.skin-blue .main-header .logo:hover {
+          background-color: #460000;
+        }
+        
+
+/* background color for remaining part of the header */
+.skin-blue .main-header .navbar {
+                              background-color: #460000;
+                              } 
+                              
+/* main sidebar */
+        .skin-blue .main-sidebar {
+                              font-family: "Roboto Slab";
+                              background-color: #460000;
+                              }
+
+/* active sidebar menu item */
+        .skin-blue .main-sidebar .sidebar .sidebar-menu .active a{
+                        font-family: "Roboto Slab";
+                              background-color: white;
+                              color:black;
+                              }
+
+/* sidebar menuitems */
+        .skin-blue .main-sidebar .sidebar .sidebar-menu a{
+                font-family: "Roboto Slab";
+                              background-color: rgb(170, 170, 170);
+                              color: black;
+                              }
+
+/* sidebar menuitems when mouse hover */
+         .skin-blue .main-sidebar .sidebar .sidebar-menu a:hover{
+                font-family: "Roboto Slab";
+                              background-color: brown;
+                              color:white;
+                              }
+                              
+/* sidebar toggle button */           
+.skin-blue .main-header .navbar .sidebar-toggle:hover{
+        font-family: "Roboto Slab";
+                              background-color: black;
+                              }
