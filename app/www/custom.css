@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+.main-header .logo {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.main-sidebar .logo{ 
+background: transparent;
+border: 0px;
+}

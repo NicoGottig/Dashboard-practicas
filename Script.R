@@ -47,9 +47,8 @@ raw_cpo <- raw_cpo %>%
 raw_pna["sede"] <- "Parana"
 raw_cpo["sede"] <- "Crespo"
 
-raw <- bind_rows(raw_cpo, raw_pna)
+raw <- rbind(raw_cpo, raw_pna)
 raw <- as.data.frame(raw)
-rm(raw_pna, raw_cpo)
 
 # Filtrado
 raw <- raw %>% 
@@ -164,10 +163,10 @@ raw <- bind_cols(carrera = carrera,
                 fin1 = as.POSIXct(fin, tz = "UTZ", origin = "1970-01-01"), 
                 inicio2 = as.POSIXct(prirenov, tz = "UTZ", origin = "1970-01-01"), 
                 fin2 = as.POSIXct(segfin, tz = "UTZ", origin = "1970-01-01"), 
-                inicio3 = as.POSIXct(segrenov, tz = "UTZ", origin = "1970-01-01"), 
-                fin3 = as.POSIXct(tercfin, tz = "UTZ", origin = "1970-01-01"), 
-                inicio4 = as.POSIXct(tercrenov, tz = "UTZ", origin = "1970-01-01"), 
-                fin4 = as.POSIXct(cuarfin, tz = "UTZ", origin = "1970-01-01"),
+                inicio3 = as.POSIXct(as.numeric(segrenov), tz = "UTZ", origin = "1970-01-01"), 
+                fin3 = as.POSIXct(as.numeric(tercfin), tz = "UTZ", origin = "1970-01-01"), 
+                inicio4 = as.POSIXct(as.numeric(tercrenov), tz = "UTZ", origin = "1970-01-01"), 
+                fin4 = as.POSIXct(as.numeric(cuarfin), tz = "UTZ", origin = "1970-01-01"),
                 sede = raw$sede)
 
 library(lubridate)
@@ -338,3 +337,4 @@ df %>%
 
 df %>% 
   tabyl(mes, año) 
+
