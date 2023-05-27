@@ -36,12 +36,6 @@ library(fresh)
 # Código
 # Df ---------------------------------------
 # Read Google Sheets
-options(gargle_oauth_cache = ".secrets")
-drive_auth(cache = ".secrets", email = "fcg_pasantias@uader.edu.ar")
-gs4_auth(token = drive_token())
-
-raw_pna <- read_sheet("https://docs.google.com/spreadsheets/d/10Y0Oq0Vf5dyEoMT23GdvBn-7ZZY0VuccYv-afySlrms/edit#gid=1669228784")
-raw_cpo <- read_sheet("https://docs.google.com/spreadsheets/d/10Y0Oq0Vf5dyEoMT23GdvBn-7ZZY0VuccYv-afySlrms/edit#gid=1669228784", range = "Pasantias crespo")
 
 # Limpieza y manipulación ------------------------------------------------------
 # Dataframe recortado
@@ -352,6 +346,7 @@ ui <- dashboardPage(
     )
   ) 
 )
+
 
 ### Servidor -------------------------------------------------------------------
 
