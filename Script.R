@@ -2,14 +2,9 @@ library(googledrive)
 library(googlesheets4)
 library(tidyverse)
 
-# Google sheets authentification -----------------------------------------------
-options(gargle_oauth_cache = ".secrets")
-drive_auth(cache = ".secrets", email = "fcg_pasantias@uader.edu.ar")
-gs4_auth(token = drive_token())
-
 # Read Google Sheets
-raw_pna <- read_sheet("https://docs.google.com/spreadsheets/d/10Y0Oq0Vf5dyEoMT23GdvBn-7ZZY0VuccYv-afySlrms/edit#gid=1669228784")
-raw_cpo <- read_sheet("https://docs.google.com/spreadsheets/d/10Y0Oq0Vf5dyEoMT23GdvBn-7ZZY0VuccYv-afySlrms/edit#gid=1669228784", range = "Pasantias crespo")
+raw_pna <- read_sheet()
+raw_cpo <- read_sheet()
 
 # Limpieza y manipulación ------------------------------------------------------
 # Dataframe recortado
