@@ -1,5 +1,6 @@
-# Dashboard-practicas
-<p align=” justify”>Sistema de visualización de las pasantías para la Facultad. La visualización puede hacerse desde el [monitor](https://bit.ly/monitorpasantiasfcg). No se encuentra actualizado ni con soporte. Se omiten fragmentos de códigos.
+# Dashboard-practicas  
+
+<p align=” justify”> Tablero interactivo de pasantías. La visualización puede hacerse desde el [monitor](https://bit.ly/monitorpasantiasfcg). No se encuentra actualizado ni con soporte. Se omiten fragmentos de códigos.
 
 <p> 
 
