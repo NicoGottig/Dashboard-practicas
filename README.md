@@ -22,4 +22,4 @@ El **objetivo** fue pensar un sistema que sea amigable para la carga de quienes 
 <br>
 Please note, it's not updated or supported. Code snippets omitted.
 
-<p align=” justify”> The **objective** was to create a user-friendly system for daily internship management while providing real-time information summary. To achieve this, a Google Sheets database was connected and processed using RStudio. An interactive Shiny application was developed to display the information.
+<p align=” justify”> The target was to create a user-friendly system for daily internship management while providing real-time information summary. To achieve this, a Google Sheets database was connected and processed using RStudio. An interactive Shiny application was developed to display the information.
