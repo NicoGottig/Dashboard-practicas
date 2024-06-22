@@ -1,6 +1,9 @@
 # Dashboard-practicas  
 
-<p align=” justify”> Tablero interactivo de pasantías. La visualización puede hacerse desde el monitor: [monitor](https://mj8qpg-nicolas-gottig.shinyapps.io/monitorDePasantias). No se encuentra actualizado ni con soporte. Se omiten fragmentos de códigos.
+<p align=” justify”> Tablero interactivo de pasantías. La visualización puede hacerse desde el monitor: [monitor](https://mj8qpg-nicolas-gottig.shinyapps.io/monitorDePasantias)
+
+[!NOTE]
+No se encuentra actualizado ni con soporte. Se omiten fragmentos de códigos.
 
 <p> 
 
@@ -12,6 +15,9 @@ El **objetivo** fue pensar un sistema que sea amigable para la carga de quienes 
 
 <hr>
 
-<p align=” justify”> Interactive Internship Dashboard: Visualize it on the monitor [monitor](https://mj8qpg-nicolas-gottig.shinyapps.io/monitorDePasantias/). Please note, it's not updated or supported. Code snippets omitted.
+<p align=” justify”> Interactive Internship Dashboard: Visualize it on the monitor [monitor](https://mj8qpg-nicolas-gottig.shinyapps.io/monitorDePasantias/)
+  
+[!NOTE]
+Please note, it's not updated or supported. Code snippets omitted.
 
 <p align=” justify”> The **objective** was to create a user-friendly system for daily internship management while providing real-time information summary. To achieve this, a Google Sheets database was connected and processed using RStudio. An interactive Shiny application was developed to display the information.
