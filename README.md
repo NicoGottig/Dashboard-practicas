@@ -1,6 +1,6 @@
 # Dashboard-practicas  
 
-<p align=” justify”> Tablero interactivo de pasantías. La visualización puede hacerse desde el monitor: [monitor](https://mj8qpg-nicolas-gottig.shinyapps.io/monitorDePasantias/). No se encuentra actualizado ni con soporte. Se omiten fragmentos de códigos.
+<p align=” justify”> Tablero interactivo de pasantías. La visualización puede hacerse desde el monitor: [monitor] (https://mj8qpg-nicolas-gottig.shinyapps.io/monitorDePasantias/). No se encuentra actualizado ni con soporte. Se omiten fragmentos de códigos.
 
 <p> 
 
