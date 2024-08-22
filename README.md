@@ -2,7 +2,7 @@
 
 <p align=” justify”> Tablero interactivo de pasantías. La visualización puede hacerse desde el monitor:   
   
-[monitor](www.mj8qpg-nicolas-gottig.shinyapps.io/monitorDePasantias)  
+[monitor](https://mj8qpg-nicolas-gottig.shinyapps.io/monitorDePasantias/)  
 <br>
 No se encuentra actualizado ni con soporte. Se omiten fragmentos de códigos.  
 
@@ -18,7 +18,7 @@ El **objetivo** fue pensar un sistema que sea amigable para la carga de quienes 
 
 <p align=” justify”> Interactive Internship Dashboard: Visualize it on the monitor: 
   
-[monitor](www.mj8qpg-nicolas-gottig.shinyapps.io/monitorDePasantias)  
+[monitor](https://mj8qpg-nicolas-gottig.shinyapps.io/monitorDePasantias/)  
 <br>
 Please note, it's not updated or supported. Code snippets omitted.
 
